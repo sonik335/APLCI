@@ -20,7 +20,7 @@ class MobileBankApiTestV1 {
                 .then()
                 .statusCode(200)
                 .body(matchesJsonSchemaInClasspath("accounts.schema.json"))
-                .body("[0].currency", equalTo("RUR"))
+                .body("[0].currency", equalTo("RUB"))
                 .body("[1].currency",equalTo("USD"));
 
 

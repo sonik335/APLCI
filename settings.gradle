@@ -1,2 +1,3 @@
 rootProject.name = 'APLCI'
+include 'MobileBankApiTestV1'
 
